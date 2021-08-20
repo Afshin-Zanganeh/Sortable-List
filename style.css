@@ -13,8 +13,12 @@ body {
     color: #333;
 }
 
-h1, body > p {
+h1 {
     margin: 30px;
+}
+
+body > p {
+    margin-bottom: 30px;
 }
 
 .draggable-list {
@@ -56,4 +60,13 @@ h1, body > p {
     background-color: #ccc;
     border-radius: 5px;
     border: none;
+    margin: 20px;
+}
+
+.name.correct {
+    color: rgb(51, 216, 51);
+}
+
+.name.wrong {
+    color: crimson;
 }
