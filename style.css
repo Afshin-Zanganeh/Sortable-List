@@ -35,6 +35,10 @@ body > p {
     width: 100%;
 }
 
+.draggable-item:hover {
+    cursor: grab;
+}
+
 .draggable-item.over {
     background-color: #ddd;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
